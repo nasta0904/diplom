@@ -4,3 +4,6 @@ body {
     background-repeat: no-repeat; 
     background-position: center;
 }
+table
+{ width: 100;
+ border-collapse: collapse;}
