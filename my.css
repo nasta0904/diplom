@@ -1,9 +1,5 @@
-body {
-    background-color: #f0f0f0;
+body 
+   {background-color: pink;
     background-size: cover; 
     background-repeat: no-repeat; 
-    background-position: center;
-}
-table
-{ width: 100;
- border-collapse: collapse;}
+    background-position: center; }
