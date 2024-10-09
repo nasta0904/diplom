@@ -1,3 +1,9 @@
 body {
     background-color: red;
 }
+element {
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
