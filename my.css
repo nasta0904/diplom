@@ -1,6 +1,1 @@
-body 
-{   background-color: #f0f0f0; /* Light grey background */
-    background-image: url('path/to/your/image.jpg'); /* Background image */
-    background-size: cover; /* Cover the entire viewport */
-    background-repeat: no-repeat; /* Prevent image repetition */
-    background-position: center; /* Center the background image */}
+body {font:pink}
