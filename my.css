@@ -1,11 +1,9 @@
 body {
 background-color :pink ;
+    color: lightblue;
 }
 h1{
     color: purple;
   font-size: 40;
 }
-p {
-  color: aqua;
-  font-size: 24;
-}
+
