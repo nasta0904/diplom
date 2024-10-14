@@ -1,9 +1,10 @@
 body {
 background-color :pink ;
-    color: blue;
 }
 h1{
     color: purple;
   font-size: 40;
 }
-
+p{
+    color: silver;
+}
