@@ -2,10 +2,7 @@
 body {
 background-color :pink ;
 }
-link {
-    content: url https://i.pinimg.com/736x/ee/71/c8/ee71c81804a5b409b312c68b7fe3d507.jpg;
-    width: 16;
-    height: 16;
+
 h1{
     color: purple;
   font-size: 40;
