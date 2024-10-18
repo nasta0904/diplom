@@ -1,8 +1,22 @@
-#header{
-   background: https://www.figma.com/design/HEP4b7hAaLiEhrVFt1aPku/Figma-basics?node-id=601-9&node-type=canvas&t=9jOhxBLUct5nHx2S-0 ;
-}
+
 body {
 background-color :pink ;
+}
+
+#header{
+position: https://www.figma.com/design/HEP4b7hAaLiEhrVFt1aPku/Figma-basics?node-id=601-9&node-type=canvas&t=9jOhxBLUct5nHx2S-0;
+
+#sm{
+float: left;
+position: absolute;
+margin-top: 16;
+left: 176;
+} 
+
+#cross{
+float: right;
+margin-top: 96;
+right: -176;
 }
 
 h1{ 
