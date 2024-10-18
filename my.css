@@ -1,6 +1,8 @@
 
 body {
-background-color :pink ;
+background-image: https://i.pinimg.com/564x/6f/88/79/6f8879bf75fffc15eff202cade44eb08.jpg ;
+  background-size: cover;
+  background-position: center; 
 }
 
 logo {
