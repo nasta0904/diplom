@@ -3,10 +3,14 @@ body {
 background-color :pink ;
 }
 
-#logo {
-  width: 16;
-    height: 16;
+header {
+  background-image: "C:\Users\Пользователь\Downloads\2024-10-18_21-56-24.png"
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }
+
+
 h1{ 
     color: purple;
   font-size: 40;
