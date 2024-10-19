@@ -1,6 +1,6 @@
 
 body {
- background-image: url("file:///C:/Users/Пользователь/Downloads/2024-10-19_13-25-40.png");
+ background-image: url('file:///C:/Users/Пользователь/Downloads/2024-10-19_13-25-40.png');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
