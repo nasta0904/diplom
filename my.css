@@ -5,7 +5,7 @@ body {
       background-position: center;
       background-repeat: no-repeat;
       background-attachment: fixed;
-color: 'green';
+color: '#172808';
 
 }
 
@@ -25,9 +25,7 @@ h1{
       margin-top: 20;
     
 }
-p{
-    color: fuchsia
-}
+
 ul{
     color:'#404404';
 }
