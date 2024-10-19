@@ -1,11 +1,9 @@
 
 body {
- font-family: Impact, sans-serif;
- background-image: url('"C:\Users\Пользователь\Downloads\font.png"');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+font-family: Impact, sans-serif;
+background-image:url(file:///C:/Users/Пользователь/Downloads/font.png);
+background-size:120; 
+background-repeat:no-repeat;
 color: 'green';
 
 }
