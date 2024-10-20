@@ -10,6 +10,6 @@ h1{
  color: green;
 }
 table, th, td {
-  border: 1 solid black;
+  border: 10 solid black;
   border-collapse: collapse;
 }
