@@ -1,6 +1,7 @@
 body
 {
- color: #002D04;
+font-family:'cursive', sans-serif;
+color: #002D04;
 font-family: Impact, sans-serif;
 background-image: url('https://i.pinimg.com/736x/22/e1/be/22e1be41b6a6c03f788140e06fdad16a.jpg');
 background-size: cover;
@@ -8,6 +9,5 @@ background-position: center;
 background-repeat:no-repeat;
 }
 h1{
- sans-serif: 'Comic Sans Ms';
  color: green;
 }
