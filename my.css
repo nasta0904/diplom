@@ -1,6 +1,9 @@
-body {
- color: #172808;
-
+body
+{
+font-family: Impact, sans-serif;
+background-image:url('твой фон');
+background-size:120; 
+background-repeat:no-repeat;
 }
 h1{
  color: #002D04
