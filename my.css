@@ -10,12 +10,12 @@ h1{
  color: green;
 }
 #header-image-menu{
-    top: 10px;
+    top: 10;
     position: relative;
 }
  
 #header-image-menu img{
-    width: 100%;
+    width: 100;
     margin: none;
     padding: none;
 }
