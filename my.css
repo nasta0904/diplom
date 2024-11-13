@@ -10,11 +10,11 @@ h1{
  color: green;
 }
 .site-header {
-    background-color: #333;
+    background-color: #ADDFAD;
     color: white;
     text-align: center;
     position: fixed;
     top: 0;
-    width: 100;
+    width: 100000;
     z-index: 9999;
 }
