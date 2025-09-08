@@ -19,3 +19,7 @@ h1{
 p {
 bgcolor=#79B465
 }
+
+a {
+	text-decoration: none;
+}
