@@ -198,4 +198,9 @@ bgcolor=#79B465
                 transform: translateY(-30px);
             }
         }
+.caption {
+            color: rgba(255, 255, 255, 0.9);
+            margin-top: 10px;
+            font-size: 14px;
+        }
 
