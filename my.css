@@ -7,7 +7,7 @@
         
         body {
             font-family: 'Pacifico', cursive;
-            color: #002D04;
+            color: #053705;
             background-image: url('https://i.pinimg.com/736x/22/e1/be/22e1be41b6a6c03f788140e06fdad16a.jpg');
             background-size: cover;
             background-position: center;
@@ -110,7 +110,7 @@
         }
         
         .content-section {
-            background: rgba(255, 255, 255, 0.85);
+            background: #79B465;
             border-radius: 15px;
             padding: 25px;
             margin-bottom: 30px;
