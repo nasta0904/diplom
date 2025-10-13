@@ -7,7 +7,7 @@
         
         body {
             font-family: 'Pacifico', cursive;
-            color: #053705;
+            color: #085908;
             background-image: url('https://i.pinimg.com/736x/22/e1/be/22e1be41b6a6c03f788140e06fdad16a.jpg');
             background-size: cover;
             background-position: center;
@@ -47,7 +47,7 @@
         }
         
         .header-text h1 {
-            color: #053705;
+            color: #085908;
             font-size: 2rem;
             text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
             margin: 0;
