@@ -58,24 +58,6 @@
             position: relative;
         }
 
-.refresh-btn {
-    background: linear-gradient(45deg, #4CAF50, #45a049);
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    font-size: 1.1em;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin: 25px auto;
-    min-width: 200px;
-}
-
         .theme-button {
             background: rgba(255, 255, 255, 0.9);
             border: 2px solid #2F4538;
