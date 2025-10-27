@@ -244,6 +244,49 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+.btn {
+  position: relative;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.loading-spinner {
+  display: none;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Стили для красивого спиннера */
+.loading-spinner::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 2px solid transparent;
+  border-top: 2px solid white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
         
         /* Анимации */
 
