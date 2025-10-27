@@ -39,17 +39,30 @@ document.getElementById('submitBtn').addEventListener('click', function() {
   const btnText = btn.querySelector('.btn-text');
   const loadingSpinner = btn.querySelector('.loading-spinner');
 
+  // Проверка существования элементов
+  if (!btnText || !loadingSpinner) {
+    console.error('Не найдены необходимые элементы внутри кнопки');
+    return;
+  }
+
+  // Сохраняем исходную ширину кнопки, чтобы избежать скачков
+  const originalWidth = btn.offsetWidth;
+  btn.style.minWidth = `${originalWidth}px`;
+
   // Показываем спиннер, скрываем текст
   btnText.style.display = 'none';
-  loadingSpinner.style.display = 'inline';
-
-  // Делаем кнопку неактивной
+  loadingSpinner.style.display = 'flex';
   btn.disabled = true;
 
-  // Эмулируем отправку данных (через 3 секунды возвращаем исходное состояние)
+  // Эмулируем отправку данных
   setTimeout(function() {
-    btnText.style.display = 'inline';
-    loadingSpinner.style.display = 'none';
-    btn.disabled = false;
+    resetButtonState(btn, btnText, loadingSpinner);
   }, 3000);
 });
+
+function resetButtonState(btn, btnText, loadingSpinner) {
+  btnText.style.display = 'inline';
+  loadingSpinner.style.display = 'none';
+  btn.disabled = false;
+  btn.style.minWidth = ''; // Убираем фиксированную ширину
+}
