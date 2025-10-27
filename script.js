@@ -32,3 +32,24 @@
                 document.getElementById('themeOptions').style.display = 'none';
             }
         });
+
+
+document.getElementById('submitBtn').addEventListener('click', function() {
+  const btn = this;
+  const btnText = btn.querySelector('.btn-text');
+  const loadingSpinner = btn.querySelector('.loading-spinner');
+
+  // Показываем спиннер, скрываем текст
+  btnText.style.display = 'none';
+  loadingSpinner.style.display = 'inline';
+
+  // Делаем кнопку неактивной
+  btn.disabled = true;
+
+  // Эмулируем отправку данных (через 3 секунды возвращаем исходное состояние)
+  setTimeout(function() {
+    btnText.style.display = 'inline';
+    loadingSpinner.style.display = 'none';
+    btn.disabled = false;
+  }, 3000);
+});
