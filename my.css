@@ -257,7 +257,7 @@
 }
 
 .btn:hover:not(:disabled) {
-  background-color: #0056b3;
+  background-color: #44944A;
 }
 
 .btn:disabled {
